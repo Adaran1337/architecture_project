@@ -1,0 +1,24 @@
+name: architecture_project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+  flutter_redux: ^0.10.0
+  elementary: ^3.0.0
+  flutter:
+    sdk: flutter
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
